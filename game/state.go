@@ -2,6 +2,7 @@ package game
 
 type GameState struct {
     PlayerCharacter Character
+    Bachelor        Character
     Contestants     []Character
     Episode         int
     Relationship    map[string]int
